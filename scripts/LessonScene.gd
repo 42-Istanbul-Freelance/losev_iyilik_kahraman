@@ -51,6 +51,20 @@ func _apply_styles():
 	if back:
 		UITheme.apply_button_style(back, Color(0.3, 0.3, 0.5))
 
+	# Dikey ortalama - tüm label'lar tam ortada
+	for lbl_name in ["TitleLabel", "LessonCounter", "QuestionLabel",
+					  "FeedbackLabel", "DailyTaskLabel"]:
+		var lbl = get_node_or_null(lbl_name)
+		if lbl is Label:
+			lbl.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
+			lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+
+	# RichTextLabel için ortalama: scroll devre dışı, dikey dolgu
+	if lesson_text:
+		lesson_text.scroll_active = false
+		lesson_text.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+
+
 
 func _show_lesson(index: int):
 	if index >= lessons.size():
