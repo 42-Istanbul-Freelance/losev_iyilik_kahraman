@@ -33,7 +33,24 @@ func _ready():
 	lessons = current_module.get("lessons", [])
 	if title_label:
 		title_label.text = "%s %s" % [current_module.get("icon",""), current_module.get("title","")]
+	_apply_styles()
 	_show_lesson(0)
+
+func _apply_styles():
+	if lesson_panel:
+		UITheme.apply_panel_style(lesson_panel, 0.55)
+	if question_panel:
+		UITheme.apply_panel_style(question_panel, 0.45)
+	if daily_task_panel:
+		UITheme.apply_panel_style(daily_task_panel, 0.55)
+	if next_btn:
+		UITheme.apply_button_style(next_btn, Color(0.2, 0.65, 0.95))
+	if task_done_btn:
+		UITheme.apply_button_style(task_done_btn, Color(0.15, 0.75, 0.4))
+	var back = get_node_or_null("BackButton")
+	if back:
+		UITheme.apply_button_style(back, Color(0.3, 0.3, 0.5))
+
 
 func _show_lesson(index: int):
 	if index >= lessons.size():
@@ -111,6 +128,8 @@ func _show_question():
 			var btn = Button.new()
 			btn.text = opt.get("text", "")
 			btn.add_theme_font_size_override("font_size", 15)
+			btn.custom_minimum_size = Vector2(0, 44)
+			UITheme.apply_button_style(btn, Color(0.18, 0.28, 0.55))
 			btn.pressed.connect(_on_option_pressed.bind(opt.get("correct", false), btn))
 			options_container.add_child(btn)
 		options_container.show()
