@@ -34,23 +34,29 @@ func _ready():
 func play_music(path: String):
 	if not music_enabled:
 		return
-	if not ResourceLoader.exists(path):
-		return
-	if music_player.stream and music_player.playing:
-		var current = music_player.stream.resource_path if music_player.stream else ""
-		if current == path:
+	# Aynı müzik çalıyorsa tekrar başlatma
+	if music_player.playing and music_player.stream:
+		if music_player.stream.resource_path == path:
 			return
 	var stream = load(path)
-	if stream:
-		music_player.stream = stream
-		music_player.play()
-		# Loop: bittikten sonra tekrar başlat
-		if not music_player.finished.is_connected(_on_music_finished):
-			music_player.finished.connect(_on_music_finished.bind(path))
+	if not stream:
+		push_warning("AudioManager: müzik yüklenemedi: " + path)
+		return
+	# Godot 4'te OggVorbis stream loop ayarı
+	if stream.has_method("set_loop"):
+		stream.set_loop(true)
+	elif "loop" in stream:
+		stream.loop = true
+	music_player.stream = stream
+	music_player.play()
+	# Signal fallback - zaten loop=true ise gereksiz ama güvence
+	if not music_player.finished.is_connected(_on_music_finished):
+		music_player.finished.connect(_on_music_finished.bind(path))
 
 func _on_music_finished(path: String):
-	if music_enabled and music_player:
+	if music_enabled and music_player and not music_player.playing:
 		music_player.play()
+
 
 
 func stop_music():
