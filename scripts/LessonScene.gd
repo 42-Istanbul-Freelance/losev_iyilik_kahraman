@@ -4,7 +4,7 @@ extends Control
 @onready var lesson_counter: Label = $LessonCounter
 @onready var xp_bar: ProgressBar = $XPBar
 @onready var character_sprite: TextureRect = $CharacterSprite
-@onready var lesson_text: RichTextLabel = $LessonPanel/LessonText
+@onready var lesson_text: Label = $LessonPanel/LessonText
 @onready var lesson_panel: PanelContainer = $LessonPanel
 @onready var question_panel: PanelContainer = $QuestionPanel
 @onready var question_label: Label = $QuestionLabel
@@ -59,10 +59,11 @@ func _apply_styles():
 			lbl.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
 			lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 
-	# RichTextLabel için ortalama: scroll devre dışı, dikey dolgu
+	# RichTextLabel yoksa Label ile ortalama
 	if lesson_text:
-		lesson_text.scroll_active = false
+		lesson_text.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
 		lesson_text.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+		lesson_text.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 
 
 
