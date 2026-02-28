@@ -10,6 +10,26 @@
 
 **LÖSEV İyilik Kahraman**, 6-12 yaş arası çocuklar için tasarlanmış interaktif bir eğitim uygulamasıdır. Oyun, çocuklara temel sağlık alışkanlıklarını ve sosyal değerleri eğlenceli bir şekilde öğretmeyi amaçlar.
 
+## 📸 Ekran Görüntüleri
+
+<div align="center">
+
+### Ana Menü & Dünya Haritası
+<img src="ss/Ekran görüntüsü_2026-03-01_02-32-43.png" width="250" />&nbsp;&nbsp;
+<img src="ss/Ekran görüntüsü_2026-03-01_02-32-53.png" width="250" />&nbsp;&nbsp;
+<img src="ss/Ekran görüntüsü_2026-03-01_02-33-06.png" width="250" />
+
+### Ders Ekranları
+<img src="ss/Ekran görüntüsü_2026-03-01_02-33-19.png" width="250" />&nbsp;&nbsp;
+<img src="ss/Ekran görüntüsü_2026-03-01_02-33-30.png" width="250" />&nbsp;&nbsp;
+<img src="ss/Ekran görüntüsü_2026-03-01_02-33-40.png" width="250" />
+
+### İlerleme & Ayarlar
+<img src="ss/Ekran görüntüsü_2026-03-01_02-33-51.png" width="250" />&nbsp;&nbsp;
+<img src="ss/Ekran görüntüsü_2026-03-01_02-34-05.png" width="250" />
+
+</div>
+
 ### 🎯 Amaç
 
 - Çocuklara sağlıklı yaşam alışkanlıklarını kazandırmak
@@ -233,13 +253,7 @@ Katkılarınızı bekliyoruz! Lütfen şu adımları takip edin:
 Bu proje eğitim amaçlı geliştirilmiştir. Kullanılan varlıklar:
 - Kenney assets: [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
 
-## 👥 İletişim
-
-Sorularınız veya önerileriniz için:
-- 📧 E-posta: [email protected]
-- 🌐 Web: [proje-website.com]
-
-## 🙏 Teşekkürler
+##  Teşekkürler
 
 - **LÖSEV** - Projeye ilham veren değerli kurum
 - **Kenney** - Ücretsiz yüksek kaliteli oyun varlıkları
