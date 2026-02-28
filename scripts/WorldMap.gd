@@ -29,8 +29,8 @@ func _build_module_buttons():
 func _create_module_button(module: Dictionary) -> Button:
 	var btn = Button.new()
 	btn.text = "%s\n%s" % [module["icon"], module["title"]]
-	btn.custom_minimum_size = Vector2(160, 110)
-	btn.add_theme_font_size_override("font_size", 17)
+	btn.custom_minimum_size = Vector2(170, 120)
+	btn.add_theme_font_size_override("font_size", 20)
 
 	var col = Color(module.get("color", "#4488ff"))
 

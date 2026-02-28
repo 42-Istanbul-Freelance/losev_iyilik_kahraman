@@ -37,7 +37,6 @@ func play_music(path: String):
 	if not ResourceLoader.exists(path):
 		return
 	if music_player.stream and music_player.playing:
-		# Aynı müzik zaten çalıyorsa tekrar başlatma
 		var current = music_player.stream.resource_path if music_player.stream else ""
 		if current == path:
 			return
@@ -45,6 +44,14 @@ func play_music(path: String):
 	if stream:
 		music_player.stream = stream
 		music_player.play()
+		# Loop: bittikten sonra tekrar başlat
+		if not music_player.finished.is_connected(_on_music_finished):
+			music_player.finished.connect(_on_music_finished.bind(path))
+
+func _on_music_finished(path: String):
+	if music_enabled and music_player:
+		music_player.play()
+
 
 func stop_music():
 	if music_player:
