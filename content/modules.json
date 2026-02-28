@@ -1,254 +1,254 @@
 {
   "modules": [
-    {
-      "id": "yardimlaşma",
-      "title": "Yardımlaşma",
-      "icon": "❤️",
-      "color": "#FF6B8A",
-      "lessons": [
-        {
-          "id": "y1",
-          "text": "Yardımlaşma, birbirimize destek olmak demektir. Bir arkadaşın düştüğünde onu kaldırmak, çantası ağır olduğunda taşımasına yardım etmek birer yardımlaşma örneğidir.",
-          "character": "malePerson",
-          "pose": "cheer0",
-          "question": {
-            "text": "Arkadaşın kitaplarını düşürdü. Ne yaparsın?",
-            "options": [
-              {"text": "Kitaplarını toplamana yardım ederim", "correct": true},
-              {"text": "Gülerim ve devam ederim", "correct": false},
-              {"text": "Görmezden gelirim", "correct": false}
-            ]
-          }
-        },
-        {
-          "id": "y2",
-          "text": "Yardım ettiğimizde hem biz hem de yardım ettiğimiz kişi mutlu olur. Bu güzel duygu bizi daha iyi bir insan yapar!",
-          "character": "femalePerson",
-          "pose": "cheer1",
-          "question": {
-            "text": "Yardım etmek bizi nasıl hissettirir?",
-            "options": [
-              {"text": "Mutlu ve değerli", "correct": true},
-              {"text": "Kötü ve yorgun", "correct": false},
-              {"text": "Hiçbir şey hissettirmez", "correct": false}
-            ]
-          }
-        }
-      ],
-      "daily_task": "Bugün birine küçük bir iyilik yap ve bunu işaretle!"
-    },
-    {
-      "id": "hijyen",
-      "title": "Sağlık ve Hijyen",
-      "icon": "🧼",
-      "color": "#4ECDC4",
-      "lessons": [
-        {
-          "id": "h1",
-          "text": "Ellerimizde gözle göremediğimiz küçük mikroplar bulunur. Doğru el yıkama bu mikropları temizler ve bizi hastalıklardan korur!",
-          "character": "femalePerson",
-          "pose": "show",
-          "question": {
-            "text": "Ellerini ne zaman yıkamalısın?",
-            "options": [
-              {"text": "Yemekten önce ve sonra", "correct": true},
-              {"text": "Sadece görünce kirli olduğunda", "correct": false},
-              {"text": "Hiçbir zaman gerekmez", "correct": false}
-            ]
-          }
-        },
-        {
-          "id": "h2",
-          "text": "Doğru el yıkama en az 20 saniye sürmeli! Sabun köpürtülmeli, parmak araları ve bilekler de temizlenmeli.",
-          "character": "malePerson",
-          "pose": "think",
-          "question": {
-            "text": "El yıkama en az kaç saniye sürmeli?",
-            "options": [
-              {"text": "20 saniye", "correct": true},
-              {"text": "2 saniye", "correct": false},
-              {"text": "1 dakika", "correct": false}
-            ]
-          }
-        }
-      ],
-      "daily_task": "Bugün ellerini doğru şekilde yıka: 20 saniye, sabunlu!"
-    },
-    {
-      "id": "beslenme",
-      "title": "Dengeli Beslenme",
-      "icon": "🥗",
-      "color": "#95E17A",
-      "lessons": [
-        {
-          "id": "b1",
-          "text": "Sağlıklı büyümek için meyve ve sebze yemek çok önemli! Her renk bir vitamin demektir. Tabağında gökkuşağı renklerini görmeye çalış!",
-          "character": "femalePerson",
-          "pose": "hold",
-          "question": {
-            "text": "Hangi besin daha sağlıklı?",
-            "options": [
-              {"text": "Taze meyve", "correct": true},
-              {"text": "Çikolatalı gofret", "correct": false},
-              {"text": "Cips", "correct": false}
-            ]
-          }
-        },
-        {
-          "id": "b2",
-          "text": "Su içmek vücudumuz için çok önemli! Günde 6-8 bardak su içmeliyiz. Su, enerjimizi artırır ve odaklanmamıza yardımcı olur.",
-          "character": "malePerson",
-          "pose": "wave",
-          "question": {
-            "text": "Günde kaç bardak su içmeliyiz?",
-            "options": [
-              {"text": "6-8 bardak", "correct": true},
-              {"text": "1-2 bardak", "correct": false},
-              {"text": "Su içmeye gerek yok", "correct": false}
-            ]
-          }
-        },
-        {
-          "id": "b3",
-          "text": "Kahvaltı günün en önemli öğünüdür! Kahvaltı yapmak bize enerji verir ve okulda daha iyi öğrenmemize yardımcı olur.",
-          "character": "femalePerson",
-          "pose": "cheer0",
-          "question": {
-            "text": "Kahvaltı neden önemlidir?",
-            "options": [
-              {"text": "Enerji verir ve öğrenmeye yardımcı olur", "correct": true},
-              {"text": "Önemli değildir", "correct": false},
-              {"text": "Sadece acıktığımızda gerekir", "correct": false}
-            ]
-          }
-        }
-      ],
-      "daily_task": "Bugün tabağına en az bir sebze veya meyve ekle!"
-    },
-    {
-      "id": "paylaşma",
-      "title": "Paylaşma",
-      "icon": "🎁",
-      "color": "#F7B731",
-      "lessons": [
-        {
-          "id": "p1",
-          "text": "Paylaşmak, sahip olduklarımızı başkalarıyla bölüşmektir. Bir kalemini, zamanını veya gülümsemeni paylaşabilirsin!",
-          "character": "malePerson",
-          "pose": "cheer1",
-          "question": {
-            "text": "Arkadaşının kalemi yok. Ne yaparsın?",
-            "options": [
-              {"text": "Kalemimi paylaşırım", "correct": true},
-              {"text": "Saklarım, göstermem", "correct": false},
-              {"text": "Öğretmene söylemem", "correct": false}
-            ]
-          }
-        },
-        {
-          "id": "p2",
-          "text": "Paylaşmak sadece eşyalarla değil, duygu ve düşüncelerle de olabilir. Mutluluğunu, ilgini ve zamanını paylaşmak da çok değerlidir!",
-          "character": "femalePerson",
-          "pose": "wide",
-          "question": {
-            "text": "Hangi şeyleri paylaşabilirsin?",
-            "options": [
-              {"text": "Eşyalar, duygu ve zamanımızı", "correct": true},
-              {"text": "Sadece oyuncakları", "correct": false},
-              {"text": "Hiçbir şey paylaşılmaz", "correct": false}
-            ]
-          }
-        }
-      ],
-      "daily_task": "Bugün bir şeyini bir arkadaşınla paylaş!"
-    },
-    {
-      "id": "gonüllülük",
-      "title": "Gönüllülük",
-      "icon": "🌟",
-      "color": "#A55EEA",
-      "lessons": [
-        {
-          "id": "g1",
-          "text": "Gönüllülük, hiçbir karşılık beklemeden yardım etmektir. Gönülden yapılan iyilikler en güzel iyiliklerdir!",
-          "character": "femalePerson",
-          "pose": "wide",
-          "question": {
-            "text": "Gönüllülük nedir?",
-            "options": [
-              {"text": "Karşılık beklemeden yardım etmek", "correct": true},
-              {"text": "Para karşılığı çalışmak", "correct": false},
-              {"text": "Zorunda olduğu için yardım etmek", "correct": false}
-            ]
-          }
-        },
-        {
-          "id": "g2",
-          "text": "Gönüllü olmak için büyük şeyler yapmak gerekmez. Evde anneye yardım etmek, kardeşine ders çalışmasında yardım etmek de gönüllülüktür!",
-          "character": "malePerson",
-          "pose": "side",
-          "question": {
-            "text": "Hangi davranış gönüllülük örneğidir?",
-            "options": [
-              {"text": "Anneye karşılık beklemeden yardım etmek", "correct": true},
-              {"text": "Para karşılığında oda toplamak", "correct": false},
-              {"text": "Ceza almamak için yardım etmek", "correct": false}
-            ]
-          }
-        }
-      ],
-      "daily_task": "Bugün evde birine karşılıksız yardım et!"
-    },
-    {
-      "id": "günlük_yaşam",
-      "title": "Günlük Alışkanlıklar",
-      "icon": "⭐",
-      "color": "#FD9644",
-      "lessons": [
-        {
-          "id": "a1",
-          "text": "Düzenli uyku beynimizin ve vücudumuzun dinlenmesini sağlar. Çocuklar için geceleri 9-11 saat uyku ideal!",
-          "character": "malePerson",
-          "pose": "side",
-          "question": {
-            "text": "Düzenli uyku ne işe yarar?",
-            "options": [
-              {"text": "Beyin ve vücudu dinlendirir", "correct": true},
-              {"text": "Hiçbir işe yaramaz", "correct": false},
-              {"text": "Sadece vakit kaybettirir", "correct": false}
-            ]
-          }
-        },
-        {
-          "id": "a2",
-          "text": "Her gün hareket etmek ve oyun oynamak sağlığımız için önemlidir. En az 1 saat aktif oyun oynamalıyız!",
-          "character": "femalePerson",
-          "pose": "cheer1",
-          "question": {
-            "text": "Günde kaç saat aktif oyun oynamalıyız?",
-            "options": [
-              {"text": "En az 1 saat", "correct": true},
-              {"text": "Hiç gerekmez", "correct": false},
-              {"text": "Sadece hafta sonları", "correct": false}
-            ]
-          }
-        },
-        {
-          "id": "a3",
-          "text": "Dişlerimizi günde 2 kez, sabah ve akşam en az 2 dakika boyunca fırçalamalıyız. Sağlıklı dişler sağlıklı bir yaşamın temelidir!",
-          "character": "malePerson",
-          "pose": "think",
-          "question": {
-            "text": "Dişlerimizi günde kaç kez fırçalamalıyız?",
-            "options": [
-              {"text": "Günde 2 kez", "correct": true},
-              {"text": "Haftada 1 kez", "correct": false},
-              {"text": "Hiç fırçalamaya gerek yok", "correct": false}
-            ]
-          }
-        }
-      ],
-      "daily_task": "Bu gece belirlediğin saatte yat ve sabah dinlenmiş kalk!"
-    }
+	{
+	  "id": "yardimlaşma",
+	  "title": "Yardımlaşma",
+	  "icon": "❤️",
+	  "color": "#FF6B8A",
+	  "lessons": [
+		{
+		  "id": "y1",
+		  "text": "Yardımlaşma, birbirimize destek olmak demektir. Bir arkadaşın düştüğünde onu kaldırmak, çantası ağır olduğunda taşımasına yardım etmek birer yardımlaşma örneğidir.",
+		  "character": "malePerson",
+		  "pose": "cheer0",
+		  "question": {
+			"text": "Arkadaşın kitaplarını düşürdü. Ne yaparsın?",
+			"options": [
+			  {"text": "Kitaplarını toplamana yardım ederim", "correct": true},
+			  {"text": "Gülerim ve devam ederim", "correct": false},
+			  {"text": "Görmezden gelirim", "correct": false}
+			]
+		  }
+		},
+		{
+		  "id": "y2",
+		  "text": "Yardım ettiğimizde hem biz hem de yardım ettiğimiz kişi mutlu olur. Bu güzel duygu bizi daha iyi bir insan yapar!",
+		  "character": "femalePerson",
+		  "pose": "cheer1",
+		  "question": {
+			"text": "Yardım etmek bizi nasıl hissettirir?",
+			"options": [
+			  {"text": "Mutlu ve değerli", "correct": true},
+			  {"text": "Kötü ve yorgun", "correct": false},
+			  {"text": "Hiçbir şey hissettirmez", "correct": false}
+			]
+		  }
+		}
+	  ],
+	  "daily_task": "Bugün birine küçük bir iyilik yap ve bunu işaretle!"
+	},
+	{
+	  "id": "hijyen",
+	  "title": "Sağlık ve Hijyen",
+	  "icon": "🧼",
+	  "color": "#4ECDC4",
+	  "lessons": [
+		{
+		  "id": "h1",
+		  "text": "Ellerimizde gözle göremediğimiz küçük mikroplar bulunur. Doğru el yıkama bu mikropları temizler ve bizi hastalıklardan korur!",
+		  "character": "femalePerson",
+		  "pose": "show",
+		  "question": {
+			"text": "Ellerini ne zaman yıkamalısın?",
+			"options": [
+			  {"text": "Yemekten önce ve sonra", "correct": true},
+			  {"text": "Sadece görünce kirli olduğunda", "correct": false},
+			  {"text": "Hiçbir zaman gerekmez", "correct": false}
+			]
+		  }
+		},
+		{
+		  "id": "h2",
+		  "text": "Doğru el yıkama en az 20 saniye sürmeli! Sabun köpürtülmeli, parmak araları ve bilekler de temizlenmeli.",
+		  "character": "malePerson",
+		  "pose": "think",
+		  "question": {
+			"text": "El yıkama en az kaç saniye sürmeli?",
+			"options": [
+			  {"text": "20 saniye", "correct": true},
+			  {"text": "2 saniye", "correct": false},
+			  {"text": "1 dakika", "correct": false}
+			]
+		  }
+		}
+	  ],
+	  "daily_task": "Bugün ellerini doğru şekilde yıka: 20 saniye, sabunlu!"
+	},
+	{
+	  "id": "beslenme",
+	  "title": "Dengeli Beslenme",
+	  "icon": "🥗",
+	  "color": "#95E17A",
+	  "lessons": [
+		{
+		  "id": "b1",
+		  "text": "Sağlıklı büyümek için meyve ve sebze yemek çok önemli! Her renk bir vitamin demektir. Tabağında gökkuşağı renklerini görmeye çalış!",
+		  "character": "femalePerson",
+		  "pose": "hold",
+		  "question": {
+			"text": "Hangi besin daha sağlıklı?",
+			"options": [
+			  {"text": "Taze meyve", "correct": true},
+			  {"text": "Çikolatalı gofret", "correct": false},
+			  {"text": "Cips", "correct": false}
+			]
+		  }
+		},
+		{
+		  "id": "b2",
+		  "text": "Su içmek vücudumuz için çok önemli! Günde 6-8 bardak su içmeliyiz. Su, enerjimizi artırır ve odaklanmamıza yardımcı olur.",
+		  "character": "malePerson",
+		  "pose": "wave",
+		  "question": {
+			"text": "Günde kaç bardak su içmeliyiz?",
+			"options": [
+			  {"text": "6-8 bardak", "correct": true},
+			  {"text": "1-2 bardak", "correct": false},
+			  {"text": "Su içmeye gerek yok", "correct": false}
+			]
+		  }
+		},
+		{
+		  "id": "b3",
+		  "text": "Kahvaltı günün en önemli öğünüdür! Kahvaltı yapmak bize enerji verir ve okulda daha iyi öğrenmemize yardımcı olur.",
+		  "character": "femalePerson",
+		  "pose": "cheer0",
+		  "question": {
+			"text": "Kahvaltı neden önemlidir?",
+			"options": [
+			  {"text": "Enerji verir ve öğrenmeye yardımcı olur", "correct": true},
+			  {"text": "Önemli değildir", "correct": false},
+			  {"text": "Sadece acıktığımızda gerekir", "correct": false}
+			]
+		  }
+		}
+	  ],
+	  "daily_task": "Bugün tabağına en az bir sebze veya meyve ekle!"
+	},
+	{
+	  "id": "paylaşma",
+	  "title": "Paylaşma",
+	  "icon": "🎁",
+	  "color": "#F7B731",
+	  "lessons": [
+		{
+		  "id": "p1",
+		  "text": "Paylaşmak, sahip olduklarımızı başkalarıyla bölüşmektir. Bir kalemini, zamanını veya gülümsemeni paylaşabilirsin!",
+		  "character": "malePerson",
+		  "pose": "cheer1",
+		  "question": {
+			"text": "Arkadaşının kalemi yok. Ne yaparsın?",
+			"options": [
+			  {"text": "Kalemimi paylaşırım", "correct": true},
+			  {"text": "Saklarım, göstermem", "correct": false},
+			  {"text": "Öğretmene söylemem", "correct": false}
+			]
+		  }
+		},
+		{
+		  "id": "p2",
+		  "text": "Paylaşmak sadece eşyalarla değil, duygu ve düşüncelerle de olabilir. Mutluluğunu, ilgini ve zamanını paylaşmak da çok değerlidir!",
+		  "character": "femalePerson",
+		  "pose": "wide",
+		  "question": {
+			"text": "Hangi şeyleri paylaşabilirsin?",
+			"options": [
+			  {"text": "Eşyalar, duygu ve zamanımızı", "correct": true},
+			  {"text": "Sadece oyuncakları", "correct": false},
+			  {"text": "Hiçbir şey paylaşılmaz", "correct": false}
+			]
+		  }
+		}
+	  ],
+	  "daily_task": "Bugün bir şeyini bir arkadaşınla paylaş!"
+	},
+	{
+	  "id": "gonüllülük",
+	  "title": "Gönüllülük",
+	  "icon": "🌟",
+	  "color": "#A55EEA",
+	  "lessons": [
+		{
+		  "id": "g1",
+		  "text": "Gönüllülük, hiçbir karşılık beklemeden yardım etmektir. Gönülden yapılan iyilikler en güzel iyiliklerdir!",
+		  "character": "femalePerson",
+		  "pose": "wide",
+		  "question": {
+			"text": "Gönüllülük nedir?",
+			"options": [
+			  {"text": "Karşılık beklemeden yardım etmek", "correct": true},
+			  {"text": "Para karşılığı çalışmak", "correct": false},
+			  {"text": "Zorunda olduğu için yardım etmek", "correct": false}
+			]
+		  }
+		},
+		{
+		  "id": "g2",
+		  "text": "Gönüllü olmak için büyük şeyler yapmak gerekmez. Evde anneye yardım etmek, kardeşine ders çalışmasında yardım etmek de gönüllülüktür!",
+		  "character": "malePerson",
+		  "pose": "side",
+		  "question": {
+			"text": "Hangi davranış gönüllülük örneğidir?",
+			"options": [
+			  {"text": "Anneye karşılık beklemeden yardım etmek", "correct": true},
+			  {"text": "Para karşılığında oda toplamak", "correct": false},
+			  {"text": "Ceza almamak için yardım etmek", "correct": false}
+			]
+		  }
+		}
+	  ],
+	  "daily_task": "Bugün evde birine karşılıksız yardım et!"
+	},
+	{
+	  "id": "günlük_yaşam",
+	  "title": "Günlük Alışkanlıklar",
+	  "icon": "⭐",
+	  "color": "#FD9644",
+	  "lessons": [
+		{
+		  "id": "a1",
+		  "text": "Düzenli uyku beynimizin ve vücudumuzun dinlenmesini sağlar. Çocuklar için geceleri 9-11 saat uyku ideal!",
+		  "character": "malePerson",
+		  "pose": "side",
+		  "question": {
+			"text": "Düzenli uyku ne işe yarar?",
+			"options": [
+			  {"text": "Beyin ve vücudu dinlendirir", "correct": true},
+			  {"text": "Hiçbir işe yaramaz", "correct": false},
+			  {"text": "Sadece vakit kaybettirir", "correct": false}
+			]
+		  }
+		},
+		{
+		  "id": "a2",
+		  "text": "Her gün hareket etmek ve oyun oynamak sağlığımız için önemlidir. En az 1 saat aktif oyun oynamalıyız!",
+		  "character": "femalePerson",
+		  "pose": "cheer1",
+		  "question": {
+			"text": "Günde kaç saat aktif oyun oynamalıyız?",
+			"options": [
+			  {"text": "En az 1 saat", "correct": true},
+			  {"text": "Hiç gerekmez", "correct": false},
+			  {"text": "Sadece hafta sonları", "correct": false}
+			]
+		  }
+		},
+		{
+		  "id": "a3",
+		  "text": "Dişlerimizi günde 2 kez, sabah ve akşam en az 2 dakika boyunca fırçalamalıyız. Sağlıklı dişler sağlıklı bir yaşamın temelidir!",
+		  "character": "malePerson",
+		  "pose": "think",
+		  "question": {
+			"text": "Dişlerimizi günde kaç kez fırçalamalıyız?",
+			"options": [
+			  {"text": "Günde 2 kez", "correct": true},
+			  {"text": "Haftada 1 kez", "correct": false},
+			  {"text": "Hiç fırçalamaya gerek yok", "correct": false}
+			]
+		  }
+		}
+	  ],
+	  "daily_task": "Bu gece belirlediğin saatte yat ve sabah dinlenmiş kalk!"
+	}
   ]
 }
