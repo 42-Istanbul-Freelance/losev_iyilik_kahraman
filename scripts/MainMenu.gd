@@ -6,6 +6,7 @@ extends Control
 @onready var character_sprite: TextureRect = $CharacterSprite
 @onready var start_btn: Button = $StartButton
 @onready var progress_btn: Button = $ProgressButton
+@onready var settings_btn: Button = $SettingsButton
 
 func _ready():
 	_apply_styles()
@@ -16,6 +17,8 @@ func _ready():
 func _apply_styles():
 	UITheme.apply_button_style(start_btn, Color(0.2, 0.6, 0.95))
 	UITheme.apply_button_style(progress_btn, Color(0.55, 0.3, 0.85))
+	if settings_btn:
+		UITheme.apply_button_style(settings_btn, Color(0.35, 0.4, 0.5))
 
 func _update_stats():
 	if xp_label:
@@ -41,3 +44,7 @@ func _on_start_button_pressed():
 func _on_progress_button_pressed():
 	AudioManager.play_sfx("click")
 	get_tree().change_scene_to_file("res://scenes/ProgressScene.tscn")
+
+func _on_settings_button_pressed():
+	AudioManager.play_sfx("click")
+	get_tree().change_scene_to_file("res://scenes/SettingsScene.tscn")

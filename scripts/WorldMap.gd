@@ -2,7 +2,7 @@ extends Control
 
 const MODULES_PATH = "res://content/modules.json"
 
-@onready var modules_container: GridContainer = $ScrollContainer/ModulesGrid
+@onready var modules_container: GridContainer = $ScrollContainer/CenterContainer/ModulesGrid
 
 var modules_data = []
 

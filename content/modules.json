@@ -93,6 +93,34 @@
               {"text": "Cips", "correct": false}
             ]
           }
+        },
+        {
+          "id": "b2",
+          "text": "Su içmek vücudumuz için çok önemli! Günde 6-8 bardak su içmeliyiz. Su, enerjimizi artırır ve odaklanmamıza yardımcı olur.",
+          "character": "malePerson",
+          "pose": "wave",
+          "question": {
+            "text": "Günde kaç bardak su içmeliyiz?",
+            "options": [
+              {"text": "6-8 bardak", "correct": true},
+              {"text": "1-2 bardak", "correct": false},
+              {"text": "Su içmeye gerek yok", "correct": false}
+            ]
+          }
+        },
+        {
+          "id": "b3",
+          "text": "Kahvaltı günün en önemli öğünüdür! Kahvaltı yapmak bize enerji verir ve okulda daha iyi öğrenmemize yardımcı olur.",
+          "character": "femalePerson",
+          "pose": "cheer0",
+          "question": {
+            "text": "Kahvaltı neden önemlidir?",
+            "options": [
+              {"text": "Enerji verir ve öğrenmeye yardımcı olur", "correct": true},
+              {"text": "Önemli değildir", "correct": false},
+              {"text": "Sadece acıktığımızda gerekir", "correct": false}
+            ]
+          }
         }
       ],
       "daily_task": "Bugün tabağına en az bir sebze veya meyve ekle!"
@@ -114,6 +142,20 @@
               {"text": "Kalemimi paylaşırım", "correct": true},
               {"text": "Saklarım, göstermem", "correct": false},
               {"text": "Öğretmene söylemem", "correct": false}
+            ]
+          }
+        },
+        {
+          "id": "p2",
+          "text": "Paylaşmak sadece eşyalarla değil, duygu ve düşüncelerle de olabilir. Mutluluğunu, ilgini ve zamanını paylaşmak da çok değerlidir!",
+          "character": "femalePerson",
+          "pose": "wide",
+          "question": {
+            "text": "Hangi şeyleri paylaşabilirsin?",
+            "options": [
+              {"text": "Eşyalar, duygu ve zamanımızı", "correct": true},
+              {"text": "Sadece oyuncakları", "correct": false},
+              {"text": "Hiçbir şey paylaşılmaz", "correct": false}
             ]
           }
         }
@@ -139,6 +181,20 @@
               {"text": "Zorunda olduğu için yardım etmek", "correct": false}
             ]
           }
+        },
+        {
+          "id": "g2",
+          "text": "Gönüllü olmak için büyük şeyler yapmak gerekmez. Evde anneye yardım etmek, kardeşine ders çalışmasında yardım etmek de gönüllülüktür!",
+          "character": "malePerson",
+          "pose": "side",
+          "question": {
+            "text": "Hangi davranış gönüllülük örneğidir?",
+            "options": [
+              {"text": "Anneye karşılık beklemeden yardım etmek", "correct": true},
+              {"text": "Para karşılığında oda toplamak", "correct": false},
+              {"text": "Ceza almamak için yardım etmek", "correct": false}
+            ]
+          }
         }
       ],
       "daily_task": "Bugün evde birine karşılıksız yardım et!"
@@ -160,6 +216,34 @@
               {"text": "Beyin ve vücudu dinlendirir", "correct": true},
               {"text": "Hiçbir işe yaramaz", "correct": false},
               {"text": "Sadece vakit kaybettirir", "correct": false}
+            ]
+          }
+        },
+        {
+          "id": "a2",
+          "text": "Her gün hareket etmek ve oyun oynamak sağlığımız için önemlidir. En az 1 saat aktif oyun oynamalıyız!",
+          "character": "femalePerson",
+          "pose": "cheer1",
+          "question": {
+            "text": "Günde kaç saat aktif oyun oynamalıyız?",
+            "options": [
+              {"text": "En az 1 saat", "correct": true},
+              {"text": "Hiç gerekmez", "correct": false},
+              {"text": "Sadece hafta sonları", "correct": false}
+            ]
+          }
+        },
+        {
+          "id": "a3",
+          "text": "Dişlerimizi günde 2 kez, sabah ve akşam en az 2 dakika boyunca fırçalamalıyız. Sağlıklı dişler sağlıklı bir yaşamın temelidir!",
+          "character": "malePerson",
+          "pose": "think",
+          "question": {
+            "text": "Dişlerimizi günde kaç kez fırçalamalıyız?",
+            "options": [
+              {"text": "Günde 2 kez", "correct": true},
+              {"text": "Haftada 1 kez", "correct": false},
+              {"text": "Hiç fırçalamaya gerek yok", "correct": false}
             ]
           }
         }

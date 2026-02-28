@@ -49,13 +49,6 @@ func play_music(path: String):
 		stream.loop = true
 	music_player.stream = stream
 	music_player.play()
-	# Signal fallback - zaten loop=true ise gereksiz ama güvence
-	if not music_player.finished.is_connected(_on_music_finished):
-		music_player.finished.connect(_on_music_finished.bind(path))
-
-func _on_music_finished(path: String):
-	if music_enabled and music_player and not music_player.playing:
-		music_player.play()
 
 
 

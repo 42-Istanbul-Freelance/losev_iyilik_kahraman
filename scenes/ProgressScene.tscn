@@ -126,13 +126,13 @@ theme_override_constants/separation = 8
 
 [node name="BackButton" type="Button" parent="."]
 layout_mode = 1
-anchor_left = 0.05
+anchor_left = 0.04
 anchor_top = 0.91
-anchor_right = 0.60
-anchor_bottom = 0.99
+anchor_right = 0.96
+anchor_bottom = 0.98
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_font_sizes/font_size = 22
+theme_override_font_sizes/font_size = 24
 text = "← Ana Menü"
 
 [connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]

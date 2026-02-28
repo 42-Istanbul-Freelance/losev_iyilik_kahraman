@@ -7,7 +7,7 @@ extends Control
 @onready var lesson_text: Label = $LessonPanel/LessonText
 @onready var lesson_panel: PanelContainer = $LessonPanel
 @onready var question_panel: PanelContainer = $QuestionPanel
-@onready var question_label: Label = $QuestionLabel
+@onready var question_label: Label = $QuestionPanel/QuestionLabel
 @onready var options_container: VBoxContainer = $OptionsContainer
 @onready var feedback_label: Label = $FeedbackLabel
 @onready var next_btn: Button = $NextButton
@@ -81,8 +81,6 @@ func _show_lesson(index: int):
 		lesson_panel.show()
 	if question_panel:
 		question_panel.hide()
-	if question_label:
-		question_label.hide()
 	if options_container:
 		options_container.hide()
 	if feedback_label:
@@ -124,7 +122,6 @@ func _show_question():
 
 	if question_label:
 		question_label.text = q.get("text", "")
-		question_label.show()
 	if lesson_panel:
 		lesson_panel.hide()
 	if question_panel:
@@ -183,8 +180,6 @@ func _show_daily_task():
 		lesson_panel.hide()
 	if question_panel:
 		question_panel.hide()
-	if question_label:
-		question_label.hide()
 	if options_container:
 		options_container.hide()
 	if feedback_label:
@@ -197,6 +192,14 @@ func _show_daily_task():
 		daily_task_label.text = current_module.get("daily_task", "")
 		daily_task_label.show()
 	if task_done_btn:
+		# Bugün zaten tamamlanmışsa butonu devre dışı bırak
+		var module_id = current_module.get("id", "")
+		if GameData.is_daily_task_completed_today(module_id):
+			task_done_btn.text = "✓ Bugün Tamamlandı"
+			task_done_btn.disabled = true
+		else:
+			task_done_btn.text = "Görevi Tamamladım!"
+			task_done_btn.disabled = false
 		task_done_btn.show()
 	GameData.complete_module(current_module.get("id", ""))
 
@@ -210,7 +213,8 @@ func _on_next_button_pressed():
 
 func _on_task_done_pressed():
 	AudioManager.play_sfx("complete")
-	GameData.add_xp(25)
+	var module_id = current_module.get("id", "")
+	GameData.complete_daily_task(module_id)
 	get_tree().change_scene_to_file("res://scenes/WorldMap.tscn")
 
 func _on_back_button_pressed():
