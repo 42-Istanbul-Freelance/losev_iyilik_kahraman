@@ -141,12 +141,14 @@ func _on_option_pressed(is_correct: bool, btn: Button):
 	if feedback_label:
 		feedback_label.show()
 		if is_correct:
+			AudioManager.play_sfx("correct")
 			btn.modulate = Color(0.4, 1.0, 0.4)
 			feedback_label.text = "✅ Harika! Doğru cevap!"
 			feedback_label.add_theme_color_override("font_color", Color(0.2, 0.8, 0.2))
 			GameData.add_xp(15)
 			_bounce_character()
 		else:
+			AudioManager.play_sfx("wrong")
 			btn.modulate = Color(1.0, 0.4, 0.4)
 			feedback_label.text = "❌ Yanlış! Tekrar dene."
 			feedback_label.add_theme_color_override("font_color", Color(0.9, 0.2, 0.2))
@@ -184,6 +186,7 @@ func _show_daily_task():
 	GameData.complete_module(current_module.get("id", ""))
 
 func _on_next_button_pressed():
+	AudioManager.play_sfx("click")
 	if question_panel and not question_panel.visible:
 		_show_question()
 	else:
@@ -191,8 +194,10 @@ func _on_next_button_pressed():
 		_show_lesson(current_lesson_index)
 
 func _on_task_done_pressed():
+	AudioManager.play_sfx("complete")
 	GameData.add_xp(25)
 	get_tree().change_scene_to_file("res://scenes/WorldMap.tscn")
 
 func _on_back_button_pressed():
+	AudioManager.play_sfx("click")
 	get_tree().change_scene_to_file("res://scenes/WorldMap.tscn")

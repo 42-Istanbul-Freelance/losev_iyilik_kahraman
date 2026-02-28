@@ -44,8 +44,10 @@ func _create_module_button(module: Dictionary) -> Button:
 	return btn
 
 func _on_module_pressed(module: Dictionary):
+	AudioManager.play_sfx("click")
 	LessonBridge.current_module = module
 	get_tree().change_scene_to_file("res://scenes/LessonScene.tscn")
 
 func _on_back_button_pressed():
+	AudioManager.play_sfx("click")
 	get_tree().change_scene_to_file("res://scenes/MainMenu.tscn")

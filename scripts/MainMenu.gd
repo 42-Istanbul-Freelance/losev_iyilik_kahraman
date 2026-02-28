@@ -11,6 +11,7 @@ func _ready():
 	_apply_styles()
 	_update_stats()
 	_animate_character()
+	AudioManager.play_music("res://assets/audio/sfx/bgmusic.ogg")
 
 func _apply_styles():
 	UITheme.apply_button_style(start_btn, Color(0.2, 0.6, 0.95))
@@ -34,7 +35,9 @@ func _animate_character():
 	tween.tween_property(character_sprite, "position:y", start_y, 1.0).set_ease(Tween.EASE_IN_OUT).set_trans(Tween.TRANS_SINE)
 
 func _on_start_button_pressed():
+	AudioManager.play_sfx("click")
 	get_tree().change_scene_to_file("res://scenes/WorldMap.tscn")
 
 func _on_progress_button_pressed():
+	AudioManager.play_sfx("click")
 	get_tree().change_scene_to_file("res://scenes/ProgressScene.tscn")
