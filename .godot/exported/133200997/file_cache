@@ -1,0 +1,6 @@
+res://addons/omnemoji/resources/OmnEmojiMerged.tres::201f6807e29834661f00e04526c1b389::1772336977::res://.godot/exported/133200997/export-5ced4f432d5e5d17fe6544a7825ea711-OmnEmojiMerged.res
+res://scenes/LessonScene.tscn::0f9426a89f42c9e8b3e73c8ff4ba70a5::1772336978::res://.godot/exported/133200997/export-79b3c6771950b67e4a670e454e664e04-LessonScene.scn
+res://scenes/MainMenu.tscn::5d459f442fe210bdde403c1dc723fdd2::1772336978::res://.godot/exported/133200997/export-23c8b2a48d59a0cd018bd8ad5ce7794c-MainMenu.scn
+res://scenes/ProgressScene.tscn::6a021edd0b2f12122fae96e9641ad4cb::1772336978::res://.godot/exported/133200997/export-d359c2cdf3d6ee65a2069ec4c66c9188-ProgressScene.scn
+res://scenes/SettingsScene.tscn::3363019c41155088d14800596a3dc864::1772336978::res://.godot/exported/133200997/export-18f0db4684828660a43e0a35872c103f-SettingsScene.scn
+res://scenes/WorldMap.tscn::1a3f40f583bf1a09a47595a36d12ec41::1772336978::res://.godot/exported/133200997/export-08ffee428f1d3d1a3b600e70d5f026b2-WorldMap.scn
