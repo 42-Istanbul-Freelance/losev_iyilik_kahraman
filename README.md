@@ -11,8 +11,8 @@
 **🌐 Web Versiyonu (Tarayıcıda Oyna):**
 👉 **[https://42-istanbul-freelance.github.io/losev_iyilik_kahraman/](https://42-istanbul-freelance.github.io/losev_iyilik_kahraman/)**
 
-**📦 İndirilebilir Sürümler:**
-[Releases](https://github.com/42-Istanbul-Freelance/losev_iyilik_kahraman/releases) sayfasından ZIP dosyasını indirebilirsiniz.
+**� Android APK:**
+[Releases](https://github.com/42-Istanbul-Freelance/losev_iyilik_kahraman/releases) sayfasından en son APK dosyasını indirip Android cihazınıza yükleyebilirsiniz.
 
 ## 📱 Proje Hakkında
 
