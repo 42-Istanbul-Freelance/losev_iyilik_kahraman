@@ -137,7 +137,7 @@ anchor_bottom = 0.94
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 24
-text = "← Ana Menü"
+text = "🏠 Ana Menü"
 
 [connection signal="toggled" from="MusicToggle" to="." method="_on_music_toggle_toggled"]
 [connection signal="value_changed" from="MusicSlider" to="." method="_on_music_slider_value_changed"]

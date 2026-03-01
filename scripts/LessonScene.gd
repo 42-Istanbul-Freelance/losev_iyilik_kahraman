@@ -92,7 +92,7 @@ func _show_lesson(index: int):
 	if task_done_btn:
 		task_done_btn.hide()
 	if next_btn:
-		next_btn.text = "Soruya Git →"
+		next_btn.text = "Soruya Git ▶️"
 		next_btn.show()
 	if xp_bar:
 		xp_bar.value = GameData.xp % 100
@@ -165,7 +165,7 @@ func _on_option_pressed(is_correct: bool, btn: Button):
 			feedback_label.text = "❌ Yanlış! Tekrar dene."
 			feedback_label.add_theme_color_override("font_color", Color(0.9, 0.2, 0.2))
 	if next_btn:
-		next_btn.text = "Devam →"
+		next_btn.text = "Devam ▶️"
 		next_btn.show()
 
 func _bounce_character():

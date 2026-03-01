@@ -143,7 +143,7 @@ anchor_bottom = 0.99
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 21
-text = "Soruya Git →"
+text = "Soruya Git ▶️"
 
 [node name="BackButton" type="Button" parent="."]
 layout_mode = 1
@@ -154,7 +154,7 @@ anchor_bottom = 0.99
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 19
-text = "← Haritaya Dön"
+text = "🗺️ Haritaya Dön"
 
 [node name="DailyTaskPanel" type="PanelContainer" parent="."]
 layout_mode = 1
