@@ -1,0 +1,25 @@
+# OmnEmoji - Third Party Fonts
+# 
+# BUNDLED (tracked in git):
+#   noto-emoji/     - Default emoji font (~10MB)
+#   noto-sans/      - Default text font (~0.6MB)
+#
+# DOWNLOADED ON-DEMAND (not tracked):
+
+# Emoji fonts (downloaded when selected)
+openmoji/
+fluent-emoji/
+emojione/
+
+# Text fonts (downloaded when selected)
+fira-sans/
+inter/
+lato/
+open-sans/
+roboto/
+source-sans/
+twemoji/
+ubuntu/
+
+# macOS
+.DS_Store
