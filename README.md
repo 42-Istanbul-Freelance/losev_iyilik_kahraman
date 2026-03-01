@@ -6,6 +6,14 @@
 
 Çocuklar için eğlenceli ve öğretici bir mobil oyun! Sağlık, hijyen ve iyilik alışkanlıkları öğreten etkileşimli dersler ve günlük görevlerle çocukların sosyal ve sağlık bilincini geliştirmeye yönelik bir eğitim uygulamasıdır.
 
+## 🎮 Hemen Oyna!
+
+**🌐 Web Versiyonu (Tarayıcıda Oyna):**
+👉 **[https://42-istanbul-freelance.github.io/losev_iyilik_kahraman/](https://42-istanbul-freelance.github.io/losev_iyilik_kahraman/)**
+
+**📦 İndirilebilir Sürümler:**
+[Releases](https://github.com/42-Istanbul-Freelance/losev_iyilik_kahraman/releases) sayfasından ZIP dosyasını indirebilirsiniz.
+
 ## 📱 Proje Hakkında
 
 **LÖSEV İyilik Kahraman**, 6-12 yaş arası çocuklar için tasarlanmış interaktif bir eğitim uygulamasıdır. Oyun, çocuklara temel sağlık alışkanlıklarını ve sosyal değerleri eğlenceli bir şekilde öğretmeyi amaçlar.
