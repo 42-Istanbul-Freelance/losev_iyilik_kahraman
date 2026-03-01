@@ -236,6 +236,18 @@ func yeni_ozellik():
 - **Godot Engine 4.6** - Oyun motoru
 - **Kenney Toon Assets** - Karakter görselleri ([Kenney.nl](https://kenney.nl))
 - **Kenney UI Audio** - Ses efektleri ([Kenney.nl](https://kenney.nl))
+- **[OmnEmoji](https://codeberg.org/gllm/gd-OmnEmoji)** - Universal cross-platform emoji support (Noto Color Emoji)
+
+### 🎉 Emoji Desteği
+
+Oyun, tüm platformlarda (PC, Web, Mobil) tutarlı emoji görüntüleme için **OmnEmoji** eklentisi kullanır:
+- ✅ Zero-config setup
+- ✅ Bundled Noto Color Emoji font
+- ✅ Automatic fallback injection
+- ✅ Web export ready - sistem fontlarına ihtiyaç yok
+- ✅ Tutarlı rendering her yerde
+
+Web sürümü emoji'leri tarayıcıdan bağımsız olarak düzgün gösterir 🎮🚀❤️
 
 ## 🤝 Katkıda Bulunma
 
